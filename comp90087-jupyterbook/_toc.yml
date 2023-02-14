@@ -1,0 +1,19 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: index
+parts:
+- caption: Template Content
+  chapters:
+  - file: markdown
+  - file: notebooks
+  - file: markdown-notebooks
+- caption: Tutorial Content
+  chapters:
+  - file: content/week01/overview
+    sections:
+    - file: content/week01/activity
+  - file: content/week02/overview
+    sections:
+    - file: content/week02/activity
