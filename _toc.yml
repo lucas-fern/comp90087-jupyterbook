@@ -4,16 +4,14 @@
 format: jb-book
 root: index
 parts:
-- caption: Template Content
+- caption: Subject Overview
   chapters:
-  - file: markdown
-  - file: notebooks
-  - file: markdown-notebooks
+  - file: content/subject-overview
 - caption: Tutorial Content
   chapters:
-  - file: content/week01/overview
+  - file: content/week01/introduction
     sections:
-    - file: content/week01/activity
-  - file: content/week02/overview
-    sections:
-    - file: content/week02/activity
+    - file: content/week01/activities
+#   - file: content/week02/introduction
+#     sections:
+#     - file: content/week02/activities
