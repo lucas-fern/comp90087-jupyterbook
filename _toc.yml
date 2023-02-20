@@ -9,8 +9,9 @@ parts:
   - file: content/subject-overview
 - caption: Tutorial Content
   chapters:
-  - file: content/week01/introduction
+  - file: content/week01/tutorial01
     sections:
+    - file: content/week01/introduction
     - file: content/week01/activities
 #   - file: content/week02/introduction
 #     sections:
