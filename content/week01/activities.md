@@ -23,7 +23,7 @@ We'll discuss these as a class, no need to post your answers for *this* task on 
 Once you have been introduced to each other, each of you answer the following questions:
 - Why did you take this subject?
 - What do you expect you will learn in this subject?
-- What are your favourite robot, AI, or other computer representations in films/TV/book/manga?
+- What are your favourite robot, AI, or other computer representations in films/TV/books/manga?
 - What is your team name?
 
 ```{note}
