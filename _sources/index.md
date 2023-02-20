@@ -1,11 +1,10 @@
-# Welcome to your Jupyter Book
+# Welcome to Ethics of AI
+This (unofficial) site is just to host some of the tutorial content in an accessible way, that I can annotate with my own notes.
 
-This is a small sample book to give you a feel for how book content is
-structured.
-It shows off a few of the major file types, as well as some sample content.
-It does not go in-depth into any particular topic - check out [the Jupyter Book documentation](https://jupyterbook.org) for more information.
+```{warning}
+The most up-to-date and accurate information will always be located on the official Canvas site, which is linked [here](https://canvas.lms.unimelb.edu.au/courses/151263).
+```
 
-Check out the content pages bundled with this sample book to see more.
-
+## Table of Contents
 ```{tableofcontents}
 ```
