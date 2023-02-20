@@ -1,0 +1,31 @@
+# Tutorial 1 Activities
+
+## Task 1
+- Form a group of four people in the tutorial. 
+  - Zoom groups should allocate themselves to breakout rooms.
+- Nominate a member to take notes from your group discussion.
+  - Notes (published on the forum) are necessary to get your mark for the tutorial.
+  - The note taker can rotate throughout the semester.
+
+## Task 2
+In your group, each person in the group should answer the following questions:
+- What is your name?
+- What degree are you doing?
+
+Then, as a team, answer the following: 
+- What are three things that you have in common? (Other than the degree you are enrolled in!)
+
+```{info}
+We'll discuss these as a class, no need to post your answers for *this* task on the discussion forum.
+```
+
+## Task 3
+Once you have been introduced to each other, each of you answer the following questions:
+- Why did you take this subject?
+- What do you expect you will learn in this subject?
+- What are your favourite robot, AI, or other computer representations in films/TV/book/manga?
+- What is your team name?
+
+```{info}
+Do post your answers to this task [here](https://canvas.lms.unimelb.edu.au/courses/151263/discussion_topics/870528)!
+```
