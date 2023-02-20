@@ -1,10 +1,11 @@
 table {
 	border-collapse: collapse;
 }
-table td {
+table td,
+table th {
 	padding: 15px;
 }
-table th {
+table thead th {
 	background-color: #54585d;
 	color: #ffffff;
 	font-weight: bold;
