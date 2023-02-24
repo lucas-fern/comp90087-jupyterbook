@@ -3,9 +3,9 @@
 <table>
 <thead>
   <tr>
-    <td>Week</td>
-    <td>Lecturer</td>
-    <td>Content</td>
+    <th>Week</th>
+    <th>Lecturer</th>
+    <th>Content</th>
   </tr>
 </thead>
 <tbody>
