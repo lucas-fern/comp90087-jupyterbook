@@ -1,8 +1,7 @@
 # Introduction
 
-`````{admonition} Most of this content is copied from the subject pages!
+`````{admonition} Most of this content is copied from [the subject pages!](https://canvas.lms.unimelb.edu.au/courses/151263/pages/tutorial-1-getting-to-know-you-first-week?module_item_id=4619339)
 :class: tip
-You can find this week's [here](https://canvas.lms.unimelb.edu.au/courses/151263/pages/tutorial-1-getting-to-know-you-first-week?module_item_id=4619339)
 `````
 ## Overview
 In this tutorial we will:
