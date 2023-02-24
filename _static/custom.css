@@ -40,7 +40,7 @@ table * {
 
 table td,
 table th {
-	padding-left: 8px
+	padding: 15px;
 }
 
 table thead tr {
@@ -80,7 +80,7 @@ th {
 	font-size: 18px;
 	color: #fff;
 	line-height: 1.2;
-	font-weight: unset
+	font-weight: 700
 }
 
 tbody tr:nth-child(even) {
@@ -187,12 +187,5 @@ tbody tr:hover {
 
 	tbody tr {
 		font-size: 14px
-	}
-}
-
-@media(max-width:576px) {
-	.container-table100 {
-		padding-left: 15px;
-		padding-right: 15px
 	}
 }
