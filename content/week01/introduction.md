@@ -31,12 +31,12 @@ Yes. But we know what it's capable of. Feeding the essay prompts into a language
 ```{warning}
 Content produced by language models is **NOT** your own work. It **must** be referenced as such to comply with [academic integrity](https://academicintegrity.unimelb.edu.au/plagiarism-and-collusion/artificial-intelligence-tools-and-technologies).
 
-> Knowingly having a third party, including artificial intelligence technologies, write or produce any work (paid or unpaid) that a student submits as their own work for assessment is deliberate cheating and is academic misconduct.
+> *Knowingly having a third party, including artificial intelligence technologies, write or produce any work (paid or unpaid) that a student submits as their own work for assessment is deliberate cheating and is academic misconduct.*
 ```
 ````
 
 ```{dropdown} Will this inflate marks?
-Maybe? We expect that most students who use these tools wont synthesize the *content* of their assessments, but will use them to edit and improve the quality of their writing.
+Maybe? We expect that most students who use these tools won't synthesize the *content* of their assessments, but will use them to edit and improve the quality of their writing.
 
 This is welcome, and should result in better quality essays overall.
 ```
