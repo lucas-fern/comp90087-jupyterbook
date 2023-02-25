@@ -30,7 +30,7 @@ Once you have been introduced to each other, each of you answer the following qu
 - What is your team name?
 
 ```{note}
-[Do post your answers to this task!](https://canvas.lms.unimelb.edu.au/courses/151263/discussion_topics/870528)!
+Do [post your answers to this task](https://canvas.lms.unimelb.edu.au/courses/151263/discussion_topics/870528)!
 ```
 ````
 `````
