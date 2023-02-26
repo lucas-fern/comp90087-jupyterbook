@@ -11,7 +11,7 @@ In this tutorial we will:
 3. Discuss our motivations for taking Ethics of AI,
 4. Look at the structure of the subject throughout the semester.
 
-## Academic Integrity Post-ChatGPT?
+## ChatGPT and Academic Integrity
 ```{dropdown} Won't people use ChatGPT to write their essays?
 Yes.
 ```
