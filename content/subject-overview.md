@@ -75,6 +75,7 @@
 ## Assessment Structure
 Tutorial participation and contributions to online discussion: **20%**.
 - Each tutorial is worth 2%. 
+- Notes should be posted on the [discussion board](https://canvas.lms.unimelb.edu.au/courses/151263/discussion_topics) within 24 hours of the tutorial.
 - There will be a total of 12 tutorials, so students can miss one without affecting their mark. 
 - The first introductory tutorial (week 1) is not marked.
 
@@ -92,6 +93,3 @@ Each week we will have a set of [Tasks/Activities](activities.md) which are the 
 
 The tasks should be completed within your groups of 4, and your answers must be published to the [discussion board](https://canvas.lms.unimelb.edu.au/courses/151263/discussion_topics) to receive a mark.
 
-```{info}
-This week's discussion thread can be accessed [here](https://canvas.lms.unimelb.edu.au/courses/151263/discussion_topics/870528).
-```
