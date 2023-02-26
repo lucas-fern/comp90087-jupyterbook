@@ -5,7 +5,7 @@
 - Form a group of four people in the tutorial. 
   - Zoom groups should allocate themselves to breakout rooms.
 - Nominate a member to take notes from your group discussion.
-  - Notes (published on the forum) are necessary to get your mark for the tutorial.
+  - Notes (published on the forum *within 24 hours of the tutorial*) are necessary to get your participation mark (2% per week).
   - The note taker can rotate throughout the semester.
 ````
 
