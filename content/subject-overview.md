@@ -80,10 +80,10 @@ Tutorial participation and contributions to online discussion: **20%**.
 - The first introductory tutorial (week 1) is not marked.
 
 Critical evaluation essay, due week 7: **30%**. 
-- An individual essay that critically evaluates a technology from the perspective of ethics.
+- An individual essay that critically evaluates a technology from an ethical perspective. 1500 words, requires 5 citations.
 
 Research essay, due week 12: **30%**. 
-- An essay that researches a particular topic on digital ethics.
+- Another individual essay that researches a particular topic on digital ethics. 1500 words, requires 10 citations.
 
 Exam: **20%**.
 - A short online quiz.
