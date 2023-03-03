@@ -23,7 +23,7 @@ jobs:
       with:
         python-version: 3.9
 
-    - name: Install dependencies
+    - name: install dependencies
       run: |
         pip install -r requirements.txt
     # Build the book
@@ -31,9 +31,10 @@ jobs:
       run: |
         jupyter-book build .
     # Push the book's HTML to github-pages
-    - name: GitHub Pages action
+    - name: deploy book to GH pages branch
       uses: peaceiris/actions-gh-pages@v3
       if: ${{ github.event_name == 'push' }}
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_dir: ./_build/html
+        cname: comp90087.lfern.com
