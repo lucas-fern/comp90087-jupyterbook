@@ -10,10 +10,10 @@ Discuss in your group:
 ````
 
 ````{tab-item} Task 2
-## ✨ secrets ✨
+✨ secrets ✨
 
 ```{note}
 We'll discuss these as a class, no need to post your answers for *this* task on the discussion forum.
 ```
 ````
-## Task 2: Secrets?
+`````
