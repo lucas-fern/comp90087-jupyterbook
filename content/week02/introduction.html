@@ -63,7 +63,7 @@ const thebe_selector_output = ".output, .cell_output"
     <link rel="shortcut icon" href="../../_static/favicon.png"/>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="Tutorial 1 Activities" href="activities.html" />
+    <link rel="next" title="Tutorial 2 Activities" href="activities.html" />
     <link rel="prev" title="Tutorial 2: Trust, Power, and Machines" href="tutorial02.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="docsearch:language" content="en">
@@ -329,7 +329,7 @@ const thebe_selector_output = ".output, .cell_output"
 </li>
 <li class="toctree-l1 current active has-children"><a class="reference internal" href="tutorial02.html">Tutorial 2: Trust, Power, and Machines</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-2"><i class="fa-solid fa-chevron-down"></i></label><ul class="current">
 <li class="toctree-l2 current active"><a class="current reference internal" href="#">Summary</a></li>
-<li class="toctree-l2"><a class="reference internal" href="activities.html">Tutorial 1 Activities</a></li>
+<li class="toctree-l2"><a class="reference internal" href="activities.html">Tutorial 2 Activities</a></li>
 </ul>
 </li>
 </ul>
@@ -454,6 +454,23 @@ title="Print to PDF"
     <a class="reference internal nav-link" href="#trust-distrust-and-lack-of-trust">
      Trust, Distrust, and Lack of Trust
     </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#trust">
+       Trust
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#distrust">
+       Distrust
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#lack-of-trust">
+       Lack of Trust
+      </a>
+     </li>
+    </ul>
    </li>
    <li class="toc-h3 nav-item toc-entry">
     <a class="reference internal nav-link" href="#contracts-for-ai">
@@ -514,36 +531,127 @@ title="Print to PDF"
 <h1>Summary<a class="headerlink" href="#summary" title="Permalink to this heading">#</a></h1>
 <section id="contractual-trust">
 <h2>Contractual Trust<a class="headerlink" href="#contractual-trust" title="Permalink to this heading">#</a></h2>
-<blockquote>
-<div><p>Contractual trust: humans trusting a machine to fulfil a <strong>contract</strong> in a particular <strong>context</strong></p>
-</div></blockquote>
+<dl class="simple myst">
+<dt>Contractual trust</dt><dd><p>Humans trusting a machine to fulfil a <strong>contract</strong> in a particular <strong>context</strong></p>
+</dd>
+</dl>
 <section id="trust-distrust-and-lack-of-trust">
 <h3>Trust, Distrust, and Lack of Trust<a class="headerlink" href="#trust-distrust-and-lack-of-trust" title="Permalink to this heading">#</a></h3>
+<section id="trust">
+<h4>Trust<a class="headerlink" href="#trust" title="Permalink to this heading">#</a></h4>
+<p>A <em>trusts</em> B if:</p>
+<ul class="simple">
+<li><p>A believes that B will act in A’s best interests; and</p></li>
+<li><p>A accepts vulnerability to B’s actions; so that:</p></li>
+<li><p>A can anticipate the impact of B’s actions, enabling collaboration.</p></li>
+</ul>
+</section>
+<section id="distrust">
+<h4>Distrust<a class="headerlink" href="#distrust" title="Permalink to this heading">#</a></h4>
+<p>A <em>distrusts</em> B if:</p>
+<ul class="simple">
+<li><p>A believes B will act <em>against</em> A’s best interests.</p></li>
+</ul>
+</section>
+<section id="lack-of-trust">
+<h4>Lack of Trust<a class="headerlink" href="#lack-of-trust" title="Permalink to this heading">#</a></h4>
+<p>A <em>lacks trust in</em> B if either of the following is true:</p>
+<ul class="simple">
+<li><p>A does <em>not</em> believe that B will act in A’s best interests; or</p></li>
+<li><p>A does <em>not</em> accept vulnerability to B’s actions.</p></li>
+</ul>
+<p>Lack of trust simply requires an <em>absence of trust</em>, where <strong>distrust</strong> instead requires A to believe B will act <em>against</em> A’s interests.</p>
+</section>
 </section>
 <section id="contracts-for-ai">
 <h3>Contracts for AI<a class="headerlink" href="#contracts-for-ai" title="Permalink to this heading">#</a></h3>
-<p>[include table]</p>
+<figure class="align-default" id="contracts-in-trust">
+<img alt="content/images/contracts-in-trust.png" src="content/images/contracts-in-trust.png" />
+<figcaption>
+<p><span class="caption-number">Fig. 1 </span><span class="caption-text">The set of contracts that a AI should uphold to be considered trustworthy according to European guidelines. Source: <a class="reference external" href="https://arxiv.org/abs/2010.07487">Formalizing Trust in Artificial Intelligence: Prerequisites, Causes and Goals of Human Trust in AI</a></span><a class="headerlink" href="#contracts-in-trust" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
 </section>
 <section id="warranted-and-unwarranted-trust">
 <h3>Warranted and Unwarranted Trust<a class="headerlink" href="#warranted-and-unwarranted-trust" title="Permalink to this heading">#</a></h3>
+<table>
+<tbody>
+  <tr>
+    <td></td>
+    <td><b>Trusted</b></td>
+    <td><b>Distrusted</b></td>
+  </tr>
+  <tr>
+    <td><b>Trustworthy</b></td>
+    <td>Warranted Trust</td>
+    <td>Unwarranted Distrust</td>
+  </tr>
+  <tr>
+    <td><b>Not Trustworthy</b></td>
+    <td>Unwarranted Trust</td>
+    <td>Warranted Distrust</td>
+  </tr>
+</tbody>
+</table>
 </section>
 <section id="use-misuse-disuse-and-abuse-of-automation">
 <h3>Use, Misuse, Disuse, and Abuse of Automation<a class="headerlink" href="#use-misuse-disuse-and-abuse-of-automation" title="Permalink to this heading">#</a></h3>
 <section id="misuse">
 <h4>Misuse<a class="headerlink" href="#misuse" title="Permalink to this heading">#</a></h4>
+<p>Using automation where it <em>shouldn’t</em> be used.</p>
+<p>Caused by:</p>
+<div class="toggle docutils container">
+<p>Unwarranted Trust</p>
+</div>
 </section>
 <section id="disuse">
 <h4>Disuse<a class="headerlink" href="#disuse" title="Permalink to this heading">#</a></h4>
+<p>Not using automation when it <em>should</em> be used.</p>
+<p>Caused by:</p>
+<div class="toggle docutils container">
+<p>Unwarranted Distrust</p>
+</div>
 </section>
 <section id="abuse">
 <h4>Abuse<a class="headerlink" href="#abuse" title="Permalink to this heading">#</a></h4>
+<p><em><strong>Deploying</strong></em> automation where it <em>shouldn’t</em> be deployed.</p>
+<p>Caused by:</p>
+<div class="toggle docutils container">
+<p>Unwarranted Distrust on the part of the AI designer.</p>
+<p>Can arise if:</p>
+<ul class="simple">
+<li><p>the AI designer has (unwarranted) distrust in human operators,</p>
+<ul>
+<li><p>believes their AI solution will be better (unwarranted trust in their AI).</p></li>
+</ul>
+</li>
+<li><p>designers or decision makers are biased in favour of automation,</p></li>
+<li><p>designers or decision makers are arrogant.</p></li>
+</ul>
+</div>
 </section>
 </section>
 </section>
 <section id="power">
 <h2>Power<a class="headerlink" href="#power" title="Permalink to this heading">#</a></h2>
+<dl class="simple myst">
+<dt>Power</dt><dd><p>The ability to control our circumstances</p>
+</dd>
+</dl>
 <section id="user-control">
 <h3>User Control<a class="headerlink" href="#user-control" title="Permalink to this heading">#</a></h3>
+<figure class="align-default" id="ethical-user-trust">
+<img alt="content/images/ethical-user-trust.png" src="content/images/ethical-user-trust.png" />
+<figcaption>
+<p><span class="caption-number">Fig. 2 </span><span class="caption-text">An ethical relationship between a user and machine, where the user has the <em>power</em> to disengage if distrust is established.</span><a class="headerlink" href="#ethical-user-trust" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+<figure class="align-default" id="unethical-user-trust">
+<img alt="content/images/unethical-user-trust.png" src="content/images/unethical-user-trust.png" />
+<figcaption>
+<p><span class="caption-number">Fig. 3 </span><span class="caption-text">An unethical power relationship between a user (decision subject), decision maker, and machine; where the user distrusts the machine, the decision maker has the power to enforce it’s use, and the decision maker is not vulnerable to negative consequences that arise from the machine’s decisions.</span><a class="headerlink" href="#unethical-user-trust" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
 </section>
 </section>
 </section>
@@ -586,7 +694,7 @@ title="Print to PDF"
   <a class='right-next' id="next-link" href="activities.html" title="next page">
   <div class="prev-next-info">
       <p class="prev-next-subtitle">next</p>
-      <p class="prev-next-title">Tutorial 1 Activities</p>
+      <p class="prev-next-title">Tutorial 2 Activities</p>
   </div>
   <i class="fa-solid fa-angle-right"></i>
   </a>
@@ -615,6 +723,23 @@ title="Print to PDF"
     <a class="reference internal nav-link" href="#trust-distrust-and-lack-of-trust">
      Trust, Distrust, and Lack of Trust
     </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#trust">
+       Trust
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#distrust">
+       Distrust
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#lack-of-trust">
+       Lack of Trust
+      </a>
+     </li>
+    </ul>
    </li>
    <li class="toc-h3 nav-item toc-entry">
     <a class="reference internal nav-link" href="#contracts-for-ai">
