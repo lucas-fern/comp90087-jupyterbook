@@ -89,7 +89,7 @@ Exam: **20%**.
 - A short online quiz.
 
 ## Tutorial Structure
-Each week we will have a set of [Tasks/Activities](activities.md) which are the assessed component of the tutorials.
+Each week we will have a set of Tasks/Activities which are the assessed component of the tutorials.
 
-The tasks should be completed within your groups of 4, and your answers must be published to the [discussion board](https://canvas.lms.unimelb.edu.au/courses/151263/discussion_topics) to receive a mark.
+The tasks should be completed within your groups of 4, and your answers must be published to the [discussion board](https://canvas.lms.unimelb.edu.au/courses/151263/discussion_topics) within 24 hours of the tutorial to receive a mark.
 

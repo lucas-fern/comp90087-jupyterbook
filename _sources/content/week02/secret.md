@@ -1,12 +1,14 @@
 # ✨ Task 2 ✨
 
+```{note}
+Include your answers to Task 2 in your post on [the discussion board](https://canvas.lms.unimelb.edu.au/courses/151263/discussion_topics/870506) as well!
+```
+
 `````{tab-set}
 ````{tab-item} Task 2.1: Discuss as a Class
 Who are the key stakeholders when using an automated grading essay?
 
-<textarea id="freeform" name="freeform" rows="6" cols="50">
-(just a text box for our brainstorm)
-</textarea>
+<textarea id="freeform" name="freeform" rows="6" cols="50"></textarea>
 ````
 
 ````{tab-item} Task 2.2: Discuss in Your Groups
