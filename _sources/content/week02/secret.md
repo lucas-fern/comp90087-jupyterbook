@@ -6,7 +6,7 @@ Include your answers to Task 2 in your post on [the discussion board](https://ca
 
 `````{tab-set}
 ````{tab-item} Task 2.1: Discuss as a Class
-Who are the key stakeholders when using an automated grading essay?
+Who are the key stakeholders when using automatic essay grading?
 
 <textarea id="freeform" name="freeform" rows="6" cols="50"></textarea>
 ````
