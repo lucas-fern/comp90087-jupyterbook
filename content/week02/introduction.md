@@ -6,17 +6,17 @@ Contractual trust
 
 ### Trust, Distrust, and Lack of Trust
 
-##### Trust
+#### Trust
 A *trusts* B if:
 - A believes that B will act in A's best interests; and
 - A accepts vulnerability to B's actions; so that:
 - A can anticipate the impact of B's actions, enabling collaboration.
 
-##### Distrust
+#### Distrust
 A *distrusts* B if:
 - A believes B will act *against* A's best interests.
 
-##### Lack of Trust
+#### Lack of Trust
 A *lacks trust in* B if either of the following is true:
 - A does *not* believe that B will act in A's best interests; or
 - A does *not* accept vulnerability to B's actions.
@@ -24,7 +24,7 @@ A *lacks trust in* B if either of the following is true:
 Lack of trust simply requires an *absence of trust*, where **distrust** instead requires A to believe B will act *against* A's interests. 
 
 ### Contracts for AI
-```{figure} ../images/contracts-in-trust.png
+```{figure} ../../images/contracts-in-trust.png
 :name: contracts-in-trust
 
 The set of contracts that a AI should uphold to be considered trustworthy according to European guidelines. Source: [Formalizing Trust in Artificial Intelligence: Prerequisites, Causes and Goals of Human Trust in AI](https://arxiv.org/abs/2010.07487)
@@ -53,7 +53,7 @@ The set of contracts that a AI should uphold to be considered trustworthy accord
 
 ### Use, Misuse, Disuse, and Abuse of Automation
 
-##### Misuse
+#### Misuse
 Using automation where it *shouldn't* be used.
 
 Caused by:
@@ -61,7 +61,7 @@ Caused by:
 Unwarranted Trust
 ```
 
-##### Disuse
+#### Disuse
 Not using automation when it *should* be used.
 
 Caused by:
@@ -69,7 +69,7 @@ Caused by:
 Unwarranted Distrust
 ```
 
-##### Abuse
+#### Abuse
 ***Deploying*** automation where it *shouldn't* be deployed.
 
 Caused by:
@@ -88,13 +88,13 @@ Power
 : The ability to control our circumstances
 
 ### User Control
-```{figure} ../images/ethical-user-trust.png
+```{figure} ../../images/ethical-user-trust.png
 :name: ethical-user-trust
 
 An ethical relationship between a user and machine, where the user has the *power* to disengage if distrust is established.
 ```
 
-```{figure} ../images/unethical-user-trust.png
+```{figure} ../../images/unethical-user-trust.png
 :name: unethical-user-trust
 
 An unethical power relationship between a user (decision subject), decision maker, and machine; where the user distrusts the machine, the decision maker has the power to enforce it's use, and the decision maker is not vulnerable to negative consequences that arise from the machine's decisions.
