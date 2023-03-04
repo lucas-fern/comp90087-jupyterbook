@@ -81,3 +81,10 @@ This is a "holdout" task that we are not giving out in advance, as it will affec
 ```
 ````
 `````
+
+## Contracts for Ethical Trust
+```{figure} ../../images/contracts-in-trust.png
+:name: contracts-in-trust
+
+The set of contracts that a AI should uphold to be considered trustworthy according to European guidelines. Source: [Formalizing Trust in Artificial Intelligence: Prerequisites, Causes and Goals of Human Trust in AI](https://arxiv.org/abs/2010.07487)
+```
