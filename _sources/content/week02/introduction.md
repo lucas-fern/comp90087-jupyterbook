@@ -6,22 +6,28 @@ Contractual trust
 
 ### Trust, Distrust, and Lack of Trust
 
-#### Trust
+```{admonition} Trust
+:class: hint
 A *trusts* B if:
 - A believes that B will act in A's best interests; and
 - A accepts vulnerability to B's actions; so that:
 - A can anticipate the impact of B's actions, enabling collaboration.
+```
 
-#### Distrust
+```{admonition} Distrust
+:class: hint
 A *distrusts* B if:
 - A believes B will act *against* A's best interests.
+```
 
-#### Lack of Trust
+```{admonition} Lack of Trust
+:class: hint
 A *lacks trust in* B if either of the following is true:
 - A does *not* believe that B will act in A's best interests; or
 - A does *not* accept vulnerability to B's actions.
 
 Lack of trust simply requires an *absence of trust*, where **distrust** instead requires A to believe B will act *against* A's interests. 
+```
 
 ### Contracts for AI
 ```{figure} ../../images/contracts-in-trust.png
@@ -53,23 +59,28 @@ The set of contracts that a AI should uphold to be considered trustworthy accord
 
 ### Use, Misuse, Disuse, and Abuse of Automation
 
-#### Misuse
+````{admonition} Misuse
+:class: hint, dropdown
 Using automation where it *shouldn't* be used.
 
 Caused by:
 ```{toggle}
 Unwarranted Trust
 ```
+````
 
-#### Disuse
+````{admonition} Disuse
+:class: hint, dropdown
 Not using automation when it *should* be used.
 
 Caused by:
 ```{toggle}
 Unwarranted Distrust
 ```
+````
 
-#### Abuse
+````{admonition} Abuse
+:class: hint, dropdown
 ***Deploying*** automation where it *shouldn't* be deployed.
 
 Caused by:
@@ -82,6 +93,7 @@ Can arise if:
 - designers or decision makers are biased in favour of automation,
 - designers or decision makers are arrogant.
 ```
+````
 
 ## Power
 Power
