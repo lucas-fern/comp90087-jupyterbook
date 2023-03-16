@@ -2,7 +2,6 @@
 # Learn more at https://jupyterbook.org/customize/config.html
 
 title: "COMP90087: Ethics of Artificial Intelligence"
-html_title: "COMP90087: Ethics of Artificial Intelligence"
 author: Lucas Fern
 logo: images/ai-brain.png
 
