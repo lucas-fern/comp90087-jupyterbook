@@ -32,7 +32,7 @@ In early 2020, London police started using facial recognition technology to iden
 Recently, a research team at MIT has developed small sensors that can be worn by pedestrians so that self-driving cars can detect people better. This is because contemporary self-driving car technology is poor at detecting passengers in busy environments, such as cities, and in the rain or the dark, which are major safety concerns. The sensor does not need to have identifying information, so cannot be used to track an individual. It is effectively a digital version of a high-visibility vest to make pedestrians more 'visible'. The group who developed the tech propose that laws should be changed to mandate that pedestrians wear such a sensor at all times to allow self-driving cars to be deployed safely.
 ```
 
-Assume that you are on the project team for your project when it is first conceived. Assume that the facial recognition application has been deployed for two years and it has been a complete disaster due to *ethical* reasons. It is no longer deployed. Conduct a pre-mortem as outlined above.
+Assume that you are on the project team for your project when it is first conceived. Assume that the application has been deployed for two years and it has been a complete disaster due to *ethical* reasons. It is no longer deployed. Conduct a pre-mortem as outlined above.
 
 Document your findings and vote on what you think would be the primary reason for failure. Link back your reasons to the models of contractual trust in the previous module.
 ````
