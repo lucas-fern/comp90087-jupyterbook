@@ -1,2 +1,0 @@
-# Tutorial 1: Introduction
-There is no lecture content covered in this week's tutorial. Instead we'll introduce ourselves and take the chance to form the groups that tutorial activities will be completed in for the rest of the semester.
