@@ -9,19 +9,23 @@ parts:
   - file: content/subject-overview
 - caption: Tutorial Content
   chapters:
-  - file: content/week01/tutorial01
+  - file: content/week01/introduction
     sections:
-    - file: content/week01/introduction
+    - file: content/week01/summary
     - file: content/week01/activities
-  - file: content/week02/tutorial02
+  - file: content/week02/introduction
     sections:
-    - file: content/week02/introduction
+    - file: content/week02/summary
     - file: content/week02/activities
-  - file: content/week03/tutorial03
+  - file: content/week03/introduction
     sections:
-    - file: content/week03/introduction
+    - file: content/week03/summary
     - file: content/week03/activities
-  - file: content/week04/tutorial04
+  - file: content/week04/introduction
     sections:
-    - file: content/week04/introduction
+    - file: content/week04/summary
     - file: content/week04/activities
+  - file: content/week05/introduction
+    sections:
+    - file: content/week05/summary
+    - file: content/week05/activities
