@@ -158,7 +158,7 @@ Derived from medical ethics, the 4 *principles* of principlism are:
   
   In 2018, Luciano Floridi et al. propose an extension to the framework used in medical ethics so that principlism can be applied more effectively to AI. They add a 5th principle:
   
-1. **Explicability** (intelligibility, transparency, and accountability). Make it clear how the systems we implement work, and who is responsible for the way they work.
+5. **Explicability** (intelligibility, transparency, and accountability). Make it clear how the systems we implement work, and who is responsible for the way they work.
 
 ```{note}
 I thought [this was a nice summary of Floridi's version of principlism](https://hdsr.mitpress.mit.edu/pub/l0jsh9d1), if you're interested in some extra reading.
