@@ -144,7 +144,7 @@ In her 1993 book *Moral Boundaries*, Tronto identifies 4 moral qualities that al
 
 Since 1993, Tronto has acknowledged an additional set of qualities (identified by another author, Selma Sevenhuijsen) necessary for effective care. This is again taken from her 2013 book, *Caring Democracy: Markets, Equality, and Justice*.
 
-5. **Plurality, communication, trust and respect; solidarity** (caring *with*). This involves making care a priority. It emphasises communication, trust, and respect as the qualities that will make it possible for people to take collective responsibility for the caring needs of all members of society.
+- **Plurality, communication, trust and respect; solidarity** (caring *with*). This involves making care a priority. It emphasises communication, trust, and respect as the qualities that will make it possible for people to take collective responsibility for the caring needs of all members of society.
 
 Tronto acknowledges that this is not a comprehensive list of moral qualities, and agrees that characteristics like **hope**, **gratitude**, and **cheerfulness** (among others) could be part of a more complete list. 
 
