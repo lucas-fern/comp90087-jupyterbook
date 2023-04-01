@@ -29,3 +29,7 @@ parts:
     sections:
     - file: content/week05/summary
     - file: content/week05/activities
+  - file: content/week06/introduction
+    sections:
+    - file: content/week06/summary
+    - file: content/week06/activities
