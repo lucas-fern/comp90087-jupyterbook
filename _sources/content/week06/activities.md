@@ -2,7 +2,7 @@
 
 ## A new sentencing tool...
 
-**Context:**
+### Context
 
 > *It is the year 2039. In the Magistrates court, Judge Judy is deciding on what sentence to hand down to Walter Davis. Davis, a black man from a poor neighbourhood, has been found guilty by a jury for an armed robbery he claims he committed because he lost his job. The armed robbery caused several victims, including a child and a person already suffering from a debilitating illness, to develop signs of post-traumatic stress.*
 > 
@@ -20,7 +20,7 @@
 > 
 > *Although use by human judges of Justice Arty is not a legal requirement in 2039, many judges prefer to seek his opinion before making their own decision about the sentence. The majority of politicians and the population approve its use, and some legal scholars have come to believe that this state-of-the-art AI assistant should be compulsory in all courts.*
 
-**Transcript:**
+### Transcript
 
 **Judge Judy:** Justice Arty, you have been informed of the various factors relevant to this case, and are aware of everything that I know about it. The minimum sentence for this crime is 3 years and the maximum is 10.
 
@@ -39,6 +39,8 @@
 **Justice Arty:** *[with light flashing]* My decision, as the Judge has noted, is based on a huge and carefully prepared dataset. This includes countless legal rulings, legal arguments, re-offending rates, characteristics of offenders, your own details and background, and much more. I want to reassure you, Mr Davis, that I do not rely on mere human intuition or emotion. Of course, the exact basis of my decision is too complex to be explained to human minds.
 
 **Judge Judy:** Thank you, my esteemed colleague. Mr Davis, I have made my decision. I sentence you to 9 years jail. Please escort Mr Davis back to his cell.
+
+### Activities
 
 `````{tab-set}
 ````{tab-item} Task 1
