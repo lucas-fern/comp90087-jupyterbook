@@ -18,5 +18,29 @@ I thought [this was a nice summary of Floridi's version of principlism](https://
 
 ## Fairness
 
+Fairness, often considered interchangeably with *justice*, is critical to consider when evaluating AI systems. Fairness means:
+- giving each person their due (what they deserve),
+- treating similar cases similarly (being blind to arbitrary differences),
+- treating people equally regardless of race, religion, class, sex, gender, sexual orientation, etc.
+- equal consideration and respect for different beliefs and characters.
+
+Fairness is important when:
+- allocating social resources (**distributive justice**),
+  - includes resources and opportunities
+- implementing procedures that allocate benefits or harms (**procedural justice**),
+  - eg. allocating scarce spaces at university, criminal sentencing
+- determining penalties for wrongdoing (**retributive justice**),
+- providing remediation/compensation for unfair treatment (**reparative justice**).
 
 ## Accountability
+
+Accountability
+: The state of being *accountable*. Accountability for AI systems requires answering for their failures and shortcomings, being responsible for blame, and providing an account for why the system exists in the way it does. Accountability often involves legal liability.
+
+### Accountability for Reasonableness (AFR)
+
+According to AFR, a decision making process must satisfy 4 conditions in order to be *legitimate and fair*:
+1. **Publicity Condition**: Decisions that establish priorities (and their rationales) must be made in publicly accessible meetings. They should be transparent, and understandable to non-technical people.
+2. **Relevance (or Full Acceptability) Condition**: The rationales for decisions should provide a *reasonable* explanation of why the selected priorities are the best way to realise algorithmic fairness.
+3. **Revision and Appeals Condition**: There must be ongoing mechanisms for challenging decisions and resolving disputes over priority-setting or policy. 
+4. **Regulative Condition**: There is public regulation that ensures conditions 1-3 are met.

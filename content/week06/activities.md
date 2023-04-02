@@ -12,6 +12,7 @@
 >
 > ````{sidebar} Justice Arty
 > ```{image} ../../images/arty.jpg
+> :height: 200px
 > :name: arty
 > ```
 > ````
