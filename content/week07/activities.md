@@ -55,13 +55,13 @@ Discuss in your groups:
 - what are your reactions when you found out about the extent of the tracking by social media companies? Does it surprise you at all?
 - is it ethical / legal for these companies to retain that much information?
 ```
+
+```{admonition} Optional task in your own time. Not assessed.
+If you're interested and have a Facebook account, review the recommendations by the news sites above on how you can optimise your settings for maximum privacy.
+```
 ````
 `````
 
 ```{note}
 As always, post your answers on the [forum discussion](https://canvas.lms.unimelb.edu.au/courses/151263/discussion_topics/870511).
-```
-
-```{admonition} Optional task in your own time. Not assessed.
-If you're interested and have a Facebook account, review the recommendations by the news sites above on how you can optimise your settings for maximum privacy.
 ```
