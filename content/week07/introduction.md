@@ -1,5 +1,5 @@
-# Tutorial 6: Transparency
-In week 6, Marc introduced *transparency*, an important consideration when making decisions and implementing processes. This is different to the concept of *explainability* (covered later in the subject) which is instead concerned with the interpretability of our algorithms.
+# Tutorial 7: Transparency
+In week 6, Marc discussed *transparency*, an important consideration when making decisions and implementing processes involving AI. This is different to the concept of *explainability* (covered later in the subject) which is instead concerned with the interpretability of our algorithms.
 
 In this tutorial we will:
 1. Reinforce our understanding of transparency, and emphasise why it is important at all stages of an Automated Decision-Making (ADM) process.
