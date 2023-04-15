@@ -33,3 +33,7 @@ parts:
     sections:
     - file: content/week06/summary
     - file: content/week06/activities
+  - file: content/week07/introduction
+    sections:
+    - file: content/week07/summary
+    - file: content/week07/activities
