@@ -6,9 +6,9 @@
 ````{tab-item} Task 1: Misleading AI
 **The use of AI in everyday life may sometimes be profoundly misleading.** For example:
 
-- AI might give humans half information – eg Alexa says ‘I recommend restaurant X, without disclosing Amazon is being paid for that recommendation. 
-- AI might disguise itself as a human eg a chatbot therapist for mental health that doesn’t disclose it is a bot. 
-- AI might overestimate its capacities eg rely on the AI investment advisor to make you rich by dealing in cryptocurrencies (nb. don’t do this...)
+- AI might give humans half information – eg. Alexa says ‘I recommend restaurant X, without disclosing Amazon is being paid for that recommendation. 
+- AI might disguise itself as a human - eg. a chatbot therapist for mental health that doesn’t disclose it is a bot. 
+- AI might overestimate its capacities - eg. rely on the AI investment advisor to make you rich by dealing in cryptocurrencies (nb. don’t do this...)
 
 
 ```{admonition} Exercise
