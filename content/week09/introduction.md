@@ -5,4 +5,4 @@ The aims of the tutorial on Accessibility and Equity are as follows.
 1. To gain an awareness of how machine learning models can encode human bias.
 2. To critically discuss a case study/thought experiment on the issues of accessibility and equity to an AI system once it is deployed.
 
-No summary this week, lots of exercises instead!
+***No summary this week, lots of exercises instead!***

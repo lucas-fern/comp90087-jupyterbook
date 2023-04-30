@@ -3,9 +3,9 @@
 ## Activities
 
 `````{tab-set}
-````{tab-item} Task 1: Correlation and Bias?
+````{tab-item} Task 1: Correlation and Bias
 
-Assuming you have a large tech company, say, Apple, who has a prestigious tech internship program for Year 12 graduates.
+Assume you have a large tech company, say, Apple, who has a prestigious tech internship program for Year 12 graduates.
 
 In the first round of applications, we have six candidates, but only two are successful.
 
