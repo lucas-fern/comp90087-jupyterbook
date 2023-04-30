@@ -41,3 +41,6 @@ parts:
     sections:
     - file: content/week08/summary
     - file: content/week08/activities
+  - file: content/week09/introduction
+    sections:
+    - file: content/week09/activities
