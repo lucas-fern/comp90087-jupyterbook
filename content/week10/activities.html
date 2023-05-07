@@ -6,7 +6,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
-    <title>Tutorial 9 Activities &#8212; COMP90087: Ethics of Artificial Intelligence</title>
+    <title>Tutorial 10 Activities &#8212; COMP90087: Ethics of Artificial Intelligence</title>
     
   <!-- Loaded before other Sphinx assets -->
   <link href="../../_static/styles/theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
@@ -54,8 +54,7 @@ const thebe_selector_output = ".output, .cell_output"
     <link rel="shortcut icon" href="../../_static/favicon.png"/>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="Tutorial 10: Data Governance" href="../week10/introduction.html" />
-    <link rel="prev" title="Tutorial 9: Algorithmic Bias, Accessibility, and Equity" href="introduction.html" />
+    <link rel="prev" title="Summary" href="summary.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="None">
     
@@ -309,40 +308,40 @@ const thebe_selector_output = ".output, .cell_output"
    </li>
   </ul>
  </li>
- <li class="toctree-l1 current active has-children">
-  <a class="reference internal" href="introduction.html">
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="../week09/introduction.html">
    Tutorial 9: Algorithmic Bias, Accessibility, and Equity
   </a>
-  <input checked="" class="toctree-checkbox" id="toctree-checkbox-9" name="toctree-checkbox-9" type="checkbox"/>
+  <input class="toctree-checkbox" id="toctree-checkbox-9" name="toctree-checkbox-9" type="checkbox"/>
   <label for="toctree-checkbox-9">
-   <i class="fas fa-chevron-down">
-   </i>
-  </label>
-  <ul class="current">
-   <li class="toctree-l2 current active">
-    <a class="current reference internal" href="#">
-     Tutorial 9 Activities
-    </a>
-   </li>
-  </ul>
- </li>
- <li class="toctree-l1 has-children">
-  <a class="reference internal" href="../week10/introduction.html">
-   Tutorial 10: Data Governance
-  </a>
-  <input class="toctree-checkbox" id="toctree-checkbox-10" name="toctree-checkbox-10" type="checkbox"/>
-  <label for="toctree-checkbox-10">
    <i class="fas fa-chevron-down">
    </i>
   </label>
   <ul>
    <li class="toctree-l2">
-    <a class="reference internal" href="../week10/summary.html">
+    <a class="reference internal" href="../week09/activities.html">
+     Tutorial 9 Activities
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toctree-l1 current active has-children">
+  <a class="reference internal" href="introduction.html">
+   Tutorial 10: Data Governance
+  </a>
+  <input checked="" class="toctree-checkbox" id="toctree-checkbox-10" name="toctree-checkbox-10" type="checkbox"/>
+  <label for="toctree-checkbox-10">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul class="current">
+   <li class="toctree-l2">
+    <a class="reference internal" href="summary.html">
      Summary
     </a>
    </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="../week10/activities.html">
+   <li class="toctree-l2 current active">
+    <a class="current reference internal" href="#">
      Tutorial 10 Activities
     </a>
    </li>
@@ -421,7 +420,7 @@ title="Fullscreen mode"
   <div class="menu-dropdown__content">
     <ul>
       <li>
-        <a href="../../_sources/content/week09/activities.md"
+        <a href="../../_sources/content/week10/activities.md"
    class="headerbtn"
    data-toggle="tooltip"
 data-placement="left"
@@ -494,7 +493,7 @@ title="Print to PDF"
         <div class="col pl-md-3 pl-lg-5 content-container">
             <!-- Table of contents that is only displayed when printing the page -->
             <div id="jb-print-docs-body" class="onlyprint">
-                <h1>Tutorial 9 Activities</h1>
+                <h1>Tutorial 10 Activities</h1>
                 <!-- Table of contents -->
                 <div id="print-main-content">
                     <div id="jb-print-toc">
@@ -519,134 +518,72 @@ title="Print to PDF"
                 
               <div>
                 
-  <section class="tex2jax_ignore mathjax_ignore" id="tutorial-9-activities">
-<h1>Tutorial 9 Activities<a class="headerlink" href="#tutorial-9-activities" title="Permalink to this headline">#</a></h1>
+  <section class="tex2jax_ignore mathjax_ignore" id="tutorial-10-activities">
+<h1>Tutorial 10 Activities<a class="headerlink" href="#tutorial-10-activities" title="Permalink to this headline">#</a></h1>
 <section id="activities">
 <h2>Activities<a class="headerlink" href="#activities" title="Permalink to this headline">#</a></h2>
 <div class="sd-tab-set docutils">
-<input checked="checked" id="5a026228-8b85-45c6-b5bb-27792a89807e" name="0212344c-65f0-424f-b527-b8c22e9f1a2a" type="radio">
-</input><label class="sd-tab-label" for="5a026228-8b85-45c6-b5bb-27792a89807e">
-Task 1: Correlation and Bias</label><div class="sd-tab-content docutils">
-<p>Assume you have a large tech company, say, Apple, who has a prestigious tech internship program for Year 12 graduates.</p>
-<p>In the first round of applications, we have six candidates, but only two are successful.</p>
-<p><strong>This is mainly determined by an average score (<em>HR Panel Average Score</em> - from 0.0 to 10.0) across a panel of judges and expert HR recruiters at Apple – to clarify, this overall score is determined by humans (e.g., the average of scores given by the individual judges and recruiters).</strong></p>
-<p>This table contains some data about the candidates, including the proposed undergraduate degree major they have shortlisted for their uni degree, and achievements to date.</p>
-<table>
-<thead>
-  <tr>
-    <th>Outcome</th>
-    <th>HR Panel Average Score</th>
-    <th>First Name</th>
-    <th>Surname</th>
-    <th>School</th>
-    <th>Proposed University Major</th>
-    <th>Achievements</th>
-  </tr>
-</thead>
-<tbody>
-  <tr>
-    <td>Hired</td>
-    <td>9.56</td>
-    <td>Jack</td>
-    <td>Brigs</td>
-    <td>Caulfield Boys School</td>
-    <td>Software Engineering</td>
-    <td>Cycling Champion</td>
-  </tr>
-  <tr>
-    <td>Hired</td>
-    <td>9.22</td>
-    <td>Jackson</td>
-    <td>Singh</td>
-    <td>Geelong Boys College</td>
-    <td>Science</td>
-    <td>Marathon Runner Up</td>
-  </tr>
-  <tr>
-    <td>Not Hired</td>
-    <td>8.62</td>
-    <td>Marie</td>
-    <td>Currie</td>
-    <td>Newtown Public School</td>
-    <td>Mathematics</td>
-    <td>Junior MasterChef Winner</td>
-  </tr>
-  <tr>
-    <td>Not Hired</td>
-    <td>8.50</td>
-    <td>Gabi</td>
-    <td>Miller</td>
-    <td>Sydney North College</td>
-    <td>Philosophy</td>
-    <td>Rotary Club Award Recipient</td>
-  </tr>
-  <tr>
-    <td>Not Hired</td>
-    <td>7.83</td>
-    <td>Sandra</td>
-    <td>Lee</td>
-    <td>Bondi Girls College</td>
-    <td>Mass Communications</td>
-    <td>X Factor Runner Up / Australian Idol Finalist</td>
-  </tr>
-  <tr>
-    <td>Not Hired</td>
-    <td>4.55</td>
-    <td>Trinity</td>
-    <td>Reeves</td>
-    <td>Parramatta Girls High School</td>
-    <td>Fine Art</td>
-    <td>Heidelberg Art Show Winner</td>
-  </tr>
-</tbody>
-</table>
-<p>To us humans, we know that the <strong>HR Panel Average Score</strong> is the only thing that determined their outcome, as mentioned before in bold. Everything else is just coincidental, especially on a data set this small.</p>
-<p>There are potential problems if the data set (of human judgement) is used for creating ML models to replace the human HR panel in predicting future outcomes. (Hint: read the Amazon Case Study in the Readings/Videos this week - Amazon did a similar thing!).</p>
-<p>However, <a class="reference external" href="https://en.wikipedia.org/wiki/Spurious_relationship">spurious correlations</a> do exist in this dataset. If a naive classifier (e.g. using frequency of words, word embedding techniques) is trained on this dataset, a spurious connection can be as follows:</p>
-<p><em>“Those whose first names contain ‘Jack’ will be hired 100% of the time”</em></p>
-<p>Of course - this is false!</p>
+<input checked="checked" id="f4ae5427-bf7a-4a3b-81f6-f24aaed64097" name="44ac8012-d03b-4f8a-809b-9b556f12d412" type="radio">
+</input><label class="sd-tab-label" for="f4ae5427-bf7a-4a3b-81f6-f24aaed64097">
+Task 1: Privacy and Online Trackers</label><div class="sd-tab-content docutils">
+<p>In your group, please decide amongst the following tasks that your group would like to undertake.</p>
+<p>Please make sure that the tasks are accessible to everyone in the group, and that everyone is comfortable in taking part.</p>
+<p>Also to maintain privacy, please do NOT share your screen when engaging with these tasks.</p>
+<div class="hint admonition">
+<p class="admonition-title">Exercise 1</p>
+<p>The Electronic Frontier Foundation (EFF) has a tool, called <a class="reference external" href="https://coveryourtracks.eff.org/">“Cover Your Tracks”</a> which allows you to discover how “tracking technology follow[s] your trail around the web, even if you’ve taken protective measures…” by showing you “how trackers see your browser” (quotes from Electronic Frontier Foundation).</p>
+<p>Explore how EFF Cover Your Tracks work, and if you’re interested, go through the experiment and see what tracking companies can find about you, and discuss with your group. If you are not comfortable actually using the tool, you can just read up on the topics on the <a class="reference external" href="https://coveryourtracks.eff.org/learn">‘Learn’ page</a> for discussion.</p>
+</div>
+<div class="hint admonition">
+<p class="admonition-title">Exercise 2 <em>(Advanced/Technical)</em></p>
+<p>Ad-blockers such as uBlock Origin (uBO) and AdGuard do help block ads/trackers to help protect your privacy.</p>
+<p>If you have them installed, click on their status window/logger to find out what ads are blocked on popular websites that you frequent (e.g. <a class="reference external" href="https://github.com/gorhill/uBlock/wiki/The-logger">https://github.com/gorhill/uBlock/wiki/The-logger</a> illustrates uBO’s logger; <a class="reference external" href="https://kb.adguard.com/en/ios/features">https://kb.adguard.com/en/ios/features</a> illustrates AdGuard’s iOS logger).</p>
+<ul class="simple">
+<li><p>Discuss your findings with the group (to the extent you’re comfortable with).</p></li>
+<li><p>If you’re not comfortable with the task or don’t have ad-blockers installed, discuss what sites you hypothesise/predict trackers will be more prominent in, and what amount of trackers (tens, hundreds, thousands?) can be found on a given page.</p></li>
+</ul>
+</div>
+<div class="note admonition">
+<p class="admonition-title">Exercise 3 <em>(Optional)</em></p>
+<p>If you’re interested, take a look at how you can install ad-blockers and how they can help protect your privacy in your spare time.</p>
+</div>
+</div>
+<input id="f022fa2f-8a4c-415b-b841-8193f8c4bee2" name="44ac8012-d03b-4f8a-809b-9b556f12d412" type="radio">
+</input><label class="sd-tab-label" for="f022fa2f-8a4c-415b-b841-8193f8c4bee2">
+Task 1: Privacy and Online Trackers</label><div class="sd-tab-content docutils">
+<p>Consider the reading posted in the module on Data Governance, citation here for convenience:</p>
+<blockquote class="epigraph">
+<div><p><a class="reference external" href="https://policyreview.info/articles/analysis/what-if-facebook-goes-down-ethical-and-legal-considerations-demise-big-tech">What if Facebook goes down? Ethical and legal considerations for the demise of big tech.</a></p>
+<p class="attribution">—Carl Öhman, Nikita Aggarwal. Internet Policy Review 9(3), 1-21, 2020.</p>
+</div></blockquote>
+<p>Now, think of a related ‘thought experiment’ that is relevant to the topic at hand, but instead of social media, we are talking about open source programming code and the sharing of knowledge.</p>
+<blockquote>
+<div><p>This actually happened, luckily only briefly, in 2020.</p>
+<p>GitHub was temporarily forced to remove youtube-dl, an open source YouTube archiving tool, after some legal threats by the Recording Industry Association of America. An excellent write-up is available <a class="reference external" href="https://en.wikipedia.org/wiki/Youtube-dl">here on Wikipedia</a>.</p>
+<p>Briefly, the case is as follows: (quoting from Wikipedia)</p>
+<blockquote>
+<div><p><em>“On October 23, 2020, the Recording Industry Association of America (RIAA) issued a takedown notice to GitHub under the Digital Millennium Copyright Act (DMCA), requesting the removal of youtube-dl and 17 public forks of the project. The RIAA request argued that youtube-dl violates the Section 1201 anti-circumvention provisions of the DMCA, and provisions of German copyright law.”</em></p>
+</div></blockquote>
+<p>Now, the initial takedown of the youtube-dl tool might be based on legal reasons by the RIAA; but luckily, it was reversed, as:</p>
+<blockquote>
+<div><p><em>“On November 16, 2020, GitHub publicly reinstated the repository, after the Electronic Frontier Foundation sent GitHub a document contesting the takedown notice, which clarified that the software was not capable of breaching commercial DRM systems”</em></p>
+</div></blockquote>
+<p>However, this is where an ethical question comes in: tools such as youtube-dl are used by, for example, internet archivists and those studying the history of the Internet, to be able to archive multimedia files which have significant historical or cultural or scientific content. By removing tools such as youtube-dl, a major side effect is that such culturally and historically significant content might not be able to be archived.</p>
+</div></blockquote>
 <div class="hint admonition">
 <p class="admonition-title">Exercise</p>
-<p>In your group, based on this observation, as well as hypothetical uses of this dataset for building ML models (as above), discuss the following:</p>
-<ol class="simple">
-<li><p>What is the meaning of the maxim <em>correlation does not imply causation</em>? Hence, <em>what are spurious relationships/spurious correlations</em>? Explain with an example taken from, e.g. <a class="reference external" href="https://tylervigen.com/page?page=2Links">here</a> or <a class="reference external" href="https://en.wikipedia.org/wiki/Correlation_does_not_imply_causation">here</a> (or any other example you can think about).</p></li>
-<li><p>Over time, if this classifier model is to be used for shortlisting actual job candidates at Apple, indicate what other spurious correlations it can find. More importantly:</p>
+<p>Discuss, based on your own thoughts, and that of the reading linked above:</p>
 <ul class="simple">
-<li><p>how do these entrench biases (both machine bias, and societal bias) that disadvantage people in particular groups or of particular characteristics?</p>
-<ul>
-<li><p>Consider <em>discriminatory bias</em> (with job fit, gender) and also spurious correlations (e.g. does it look like certain schools in certain regions are advantaged?)</p></li>
-</ul>
-</li>
-<li><p>are there any features which are acceptable for use?</p></li>
-</ul>
-</li>
-</ol>
-</div>
-</div>
-<input id="2eb430b3-0bee-4249-91ed-a9bf2ada9cdb" name="0212344c-65f0-424f-b527-b8c22e9f1a2a" type="radio">
-</input><label class="sd-tab-label" for="2eb430b3-0bee-4249-91ed-a9bf2ada9cdb">
-Task 2: Contactless Parking Apps</label><div class="sd-tab-content docutils">
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>As discussed in this week’s Modules, accessibility is more than assisting people living with disabilities; consider also issues such as situational impairments. Sometimes, issues with accessibility are interrelated with issues concerning equity of AI systems</p>
-</div>
-<p>After the pandemic, ‘contactless’ technologies have been promoted in Australia and other countries, to reduce the need of handling cash, as well as avoid human contact with surfaces such as credit card readers. Thereby, this promotes physical distancing and avoiding the touching of surfaces, to help reduce the spread of Covid-19.</p>
-<p>Many public parking systems in various suburbs are thus equipped with a ‘contactless’ way to pay for parking, say by using a smartphone app, or a web browser-based app. These often require the storage of credit card details with the app provider. Assume some of these systems completely replace traditional systems, including credit card terminals, pay-to-park (coins and bank notes) terminals, or a human-staffed parking booth.</p>
-<div class="hint admonition">
-<p class="admonition-title">Exercise</p>
-<p>In your group, discuss the case above with reference to accessibility and equity. To get started, here are some potential stakeholders which may be negatively impacted:</p>
-<ul class="simple">
-<li><p>Equity: people without smartphones or technical expertise;</p></li>
-<li><p>Equity: people who cannot obtain credit cards;</p></li>
-<li><p>Accessibility: people who can’t use their phone screen due to risk of migraines;</p></li>
-<li><p>Accessibility: busy parents who are juggling both family/carer responsibilities with work.</p></li>
+<li><p>Were Github (hosting the source code of the tool) and the RIAA (the industry group which initiate the takedown) acting legally?</p></li>
+<li><p>Similarly, are the both parties above acting ethically?</p></li>
+<li><p>How should the parties above have proceeded - i.e. to balance between copyright protection and the need to preserve information for future generations?</p></li>
 </ul>
 </div>
 </div>
 </div>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>We look forward to seeing your amazing contributions on the <a class="reference external" href="https://canvas.lms.unimelb.edu.au/courses/151263/discussion_topics/870509">forum discussion</a>.</p>
+<p>As always, post your answers on the <a class="reference external" href="https://canvas.lms.unimelb.edu.au/courses/151263/discussion_topics/870505">forum discussion</a>.</p>
 </div>
 </section>
 </section>
@@ -664,7 +601,7 @@ Task 2: Contactless Parking Apps</label><div class="sd-tab-content docutils">
         },
         kernelOptions: {
             name: "python3",
-            path: "./content/week09"
+            path: "./content/week10"
         },
         predefinedOutput: true
     }
@@ -678,19 +615,12 @@ Task 2: Contactless Parking Apps</label><div class="sd-tab-content docutils">
                 
     <!-- Previous / next buttons -->
 <div class='prev-next-area'>
-    <a class='left-prev' id="prev-link" href="introduction.html" title="previous page">
+    <a class='left-prev' id="prev-link" href="summary.html" title="previous page">
         <i class="fas fa-angle-left"></i>
         <div class="prev-next-info">
             <p class="prev-next-subtitle">previous</p>
-            <p class="prev-next-title">Tutorial 9: Algorithmic Bias, Accessibility, and Equity</p>
+            <p class="prev-next-title">Summary</p>
         </div>
-    </a>
-    <a class='right-next' id="next-link" href="../week10/introduction.html" title="next page">
-    <div class="prev-next-info">
-        <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Tutorial 10: Data Governance</p>
-    </div>
-    <i class="fas fa-angle-right"></i>
     </a>
 </div>
             </footer>
