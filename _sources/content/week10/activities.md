@@ -8,8 +8,7 @@ In your group, please decide amongst the following tasks that your group would l
 
 Please make sure that the tasks are accessible to everyone in the group, and that everyone is comfortable in taking part.
 
-Also to maintain privacy, please do NOT share your screen when engaging with these tasks.
-
+Also to maintain privacy, **please do NOT** share your screen when engaging with these tasks.
 
 ```{admonition} Exercise 1
 :class: hint
@@ -34,7 +33,7 @@ If you're interested, take a look at how you can install ad-blockers and how the
 ```
 ````
 
-````{tab-item} Task 1: Privacy and Online Trackers
+````{tab-item} Task 2: GitHub and Takedown Requests
 Consider the reading posted in the module on Data Governance, citation here for convenience:
 ```{epigraph}
 [What if Facebook goes down? Ethical and legal considerations for the demise of big tech.](https://policyreview.info/articles/analysis/what-if-facebook-goes-down-ethical-and-legal-considerations-demise-big-tech)
@@ -54,8 +53,8 @@ Now, think of a related 'thought experiment' that is relevant to the topic at ha
 >
 > Now, the initial takedown of the youtube-dl tool might be based on legal reasons by the RIAA; but luckily, it was reversed, as:
 > > *"On November 16, 2020, GitHub publicly reinstated the repository, after the Electronic Frontier Foundation sent GitHub a document contesting the takedown notice, which clarified that the software was not capable of breaching commercial DRM systems"*
->
-> However, this is where an ethical question comes in: tools such as youtube-dl are used by, for example, internet archivists and those studying the history of the Internet, to be able to archive multimedia files which have significant historical or cultural or scientific content. By removing tools such as youtube-dl, a major side effect is that such culturally and historically significant content might not be able to be archived.
+
+However, this is where an ethical question comes in: tools such as youtube-dl are used by, for example, internet archivists and those studying the history of the Internet, to be able to archive multimedia files which have significant historical or cultural or scientific content. By removing tools such as youtube-dl, a major side effect is that such culturally and historically significant content might not be able to be archived.
 
 ```{admonition} Exercise
 :class: hint
