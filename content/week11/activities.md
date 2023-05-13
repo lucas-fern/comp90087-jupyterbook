@@ -40,11 +40,9 @@ In your group:
 - Do you think the rankings would be the same for a data scientist building the credit scoring model? 
 - Document your outcomes and justify your rankings. 
 ```
-````
 
-
-```{admonition} Attribution-based
-:class: attention, dropdown
+`````{tab-set}
+````{tab-item} Attribution-based
 Your loan application has been rejected in this instance. Here are the five most important reasons for this decision and their weights:
 
 <table>
@@ -85,10 +83,9 @@ Your loan application has been rejected in this instance. Here are the five most
 </table>
 
 Here, weight of the interest rate is negative because a higher interest rate makes the loan harder to pay off.
-```
+````
 
-```{admonition} Example-based (Prototypes)
-:class: attention, dropdown
+````{tab-item} Example-based (Prototypes)
 
 Your loan application has been rejected in this instance. The following lists three examples of customers who have also had their loan rejected:
 
@@ -134,18 +131,17 @@ Your loan application has been rejected in this instance. The following lists th
   </tr>
 </tbody>
 </table>
-```
+````
 
-```{admonition} Contrastive Explanation
-:class: attention, dropdown
-
+````{tab-item} Contrastive Explanation
 Your loan application has been rejected in this instance. The following list four reasons why:
 
 1. If your income had been $180,000 or above, you would have received the loan; *OR*
 2. If you increased your loan term to 48 months, you would have received the loan; *OR*
 3. If you applied for a small business loan, which has an interest rate of 9.5%, AND your income had been above $150,000, you would have received the loan; *OR*
 4. If your occupation had been Chief Executive Officer, you would have received the loan.
-```
+````
+`````
 ``````
 ```````
 
