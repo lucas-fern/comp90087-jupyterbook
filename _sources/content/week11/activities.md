@@ -43,6 +43,7 @@ In your group:
 ````
 
 `````{tab-set}
+
 ````{tab-item} Attribution-based
 Your loan application has been rejected in this instance. Here are the five most important reasons for this decision and their weights:
 
@@ -85,6 +86,7 @@ Your loan application has been rejected in this instance. Here are the five most
 
 Here, weight of the interest rate is negative because a higher interest rate makes the loan harder to pay off.
 ````
+
 ````{tab-item} Example-based (Prototypes)
 
 Your loan application has been rejected in this instance. The following lists three examples of customers who have also had their loan rejected:
@@ -131,8 +133,8 @@ Your loan application has been rejected in this instance. The following lists th
   </tr>
 </tbody>
 </table>
-
 ````
+
 ````{tab-item} Contrastive Explanation
 Your loan application has been rejected in this instance. The following list four reasons why:
 
