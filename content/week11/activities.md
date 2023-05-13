@@ -27,7 +27,7 @@ In your group, discuss what information an explainability technique should give 
 ``````{tab-item} Task 2: Credit Scoring
 In financial institutions such as banks, *credit scoring models* have been used for decades to try to predict the risk of someone applying for a loan. These models use information such as: the loan amount requested, interest rate, term (length) of loan, age, previous loan information, current amount of debt, number of credit cards, occupation, education level, salary, and investments. 
 
-Consider the three local explanations below for a business owner, Peta, who applied for a $12500 loan on a 24-month term at an interest rate of 12.5%. Peta has a credit rating of E (on a scale of A to F, where A is an excellent rating and F is a poor rating). Peta has run a successful business for five years and earns an annual salary of approximately $130,000.
+Consider the three local explanations below for a business owner, Peta, who applied for a \$12500 loan on a 24-month term at an interest rate of 12.5%. Peta has a credit rating of E (on a scale of A to F, where A is an excellent rating and F is a poor rating). Peta has run a successful business for five years and earns an annual salary of approximately \$130,000.
 
 Peta's primary goal in these explanations is recourse: to find out how to get a loan by either: (a) updating information that is incorrect; or (b) changing circumstances so that the next time, the loan is approved.
 
@@ -42,9 +42,9 @@ In your group:
 ```
 ````
 
-`````{tab-set}
 
-````{tab-item} Attribution-based
+```{admonition} Attribution-based
+:class: attention, dropdown
 Your loan application has been rejected in this instance. Here are the five most important reasons for this decision and their weights:
 
 <table>
@@ -85,9 +85,10 @@ Your loan application has been rejected in this instance. Here are the five most
 </table>
 
 Here, weight of the interest rate is negative because a higher interest rate makes the loan harder to pay off.
-````
+```
 
-````{tab-item} Example-based (Prototypes)
+```{admonition} Example-based (Prototypes)
+:class: attention, dropdown
 
 Your loan application has been rejected in this instance. The following lists three examples of customers who have also had their loan rejected:
 
@@ -133,17 +134,18 @@ Your loan application has been rejected in this instance. The following lists th
   </tr>
 </tbody>
 </table>
-````
+```
 
-````{tab-item} Contrastive Explanation
+```{admonition} Contrastive Explanation
+:class: attention, dropdown
+
 Your loan application has been rejected in this instance. The following list four reasons why:
 
 1. If your income had been $180,000 or above, you would have received the loan; *OR*
 2. If you increased your loan term to 48 months, you would have received the loan; *OR*
 3. If you applied for a small business loan, which has an interest rate of 9.5%, AND your income had been above $150,000, you would have received the loan; *OR*
 4. If your occupation had been Chief Executive Officer, you would have received the loan.
-````
-`````
+```
 ``````
 ```````
 
