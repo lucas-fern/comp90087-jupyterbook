@@ -51,8 +51,6 @@ const thebe_selector_input = "pre"
 const thebe_selector_output = ".output, .cell_output"
 </script>
     <script async="async" src="../../_static/sphinx-thebe.js"></script>
-    <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
-    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     <link rel="shortcut icon" href="../../_static/favicon.png"/>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
@@ -547,8 +545,8 @@ title="Print to PDF"
 <section id="activities">
 <h2>Activities<a class="headerlink" href="#activities" title="Permalink to this headline">#</a></h2>
 <div class="sd-tab-set docutils">
-<input checked="checked" id="b510d39a-01fd-4ace-9878-7114b7d3d2e1" name="6d911f7a-ab14-445d-a27f-b263fe4d34ce" type="radio">
-</input><label class="sd-tab-label" for="b510d39a-01fd-4ace-9878-7114b7d3d2e1">
+<input checked="checked" id="871e1db8-5878-4596-bdb3-373f663d6d31" name="c364e16d-9abb-4dbc-9b3a-8a03cf5526c2" type="radio">
+</input><label class="sd-tab-label" for="871e1db8-5878-4596-bdb3-373f663d6d31">
 Task 1: Ofqual</label><div class="sd-tab-content docutils">
 <p>Consider the following news article about <em>Ofqual</em>: an algorithmic approach that predict final grades for secondary school students in the England in 2020, who were unable to sit exams due to the COVID-19 pandemic.</p>
 <blockquote class="epigraph">
@@ -564,11 +562,11 @@ Task 1: Ofqual</label><div class="sd-tab-content docutils">
 </ul>
 </div>
 </div>
-<input id="d0ddb1d0-d807-480d-b713-c70a2f1e80a1" name="6d911f7a-ab14-445d-a27f-b263fe4d34ce" type="radio">
-</input><label class="sd-tab-label" for="d0ddb1d0-d807-480d-b713-c70a2f1e80a1">
+<input id="9796764d-faeb-4f87-9d60-fc905684b1a5" name="c364e16d-9abb-4dbc-9b3a-8a03cf5526c2" type="radio">
+</input><label class="sd-tab-label" for="9796764d-faeb-4f87-9d60-fc905684b1a5">
 Task 2: Credit Scoring</label><div class="sd-tab-content docutils">
 <p>In financial institutions such as banks, <em>credit scoring models</em> have been used for decades to try to predict the risk of someone applying for a loan. These models use information such as: the loan amount requested, interest rate, term (length) of loan, age, previous loan information, current amount of debt, number of credit cards, occupation, education level, salary, and investments.</p>
-<p>Consider the three local explanations below for a business owner, Peta, who applied for a <span class="math notranslate nohighlight">\(12500 loan on a 24-month term at an interest rate of 12.5%. Peta has a credit rating of E (on a scale of A to F, where A is an excellent rating and F is a poor rating). Peta has run a successful business for five years and earns an annual salary of approximately \)</span>130,000.</p>
+<p>Consider the three local explanations below for a business owner, Peta, who applied for a $12500 loan on a 24-month term at an interest rate of 12.5%. Peta has a credit rating of E (on a scale of A to F, where A is an excellent rating and F is a poor rating). Peta has run a successful business for five years and earns an annual salary of approximately $130,000.</p>
 <p>Peta’s primary goal in these explanations is recourse: to find out how to get a loan by either: (a) updating information that is incorrect; or (b) changing circumstances so that the next time, the loan is approved.</p>
 <div class="hint admonition">
 <p class="admonition-title">Exercise</p>
@@ -580,9 +578,9 @@ Task 2: Credit Scoring</label><div class="sd-tab-content docutils">
 </ul>
 </div>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span>
-`````{tab-set}
 
-````{tab-item} Attribution-based
+```{admonition} Attribution-based
+:class: attention, dropdown
 Your loan application has been rejected in this instance. Here are the five most important reasons for this decision and their weights:
 
 &lt;table&gt;
@@ -623,69 +621,67 @@ Your loan application has been rejected in this instance. Here are the five most
 &lt;/table&gt;
 
 Here, weight of the interest rate is negative because a higher interest rate makes the loan harder to pay off.
-</pre></div>
-</div>
-<div class="sd-tab-item docutils">
-<p class="sd-tab-label rubric">Example-based (Prototypes)</p>
-<div class="sd-tab-content docutils">
-<p>Your loan application has been rejected in this instance. The following lists three examples of customers who have also had their loan rejected:</p>
-<table>
-<thead>
-  <tr>
-    <th>Attribute</th>
-    <th>Example customer 1</th>
-    <th>Example customer 2</th>
-    <th>Example customer 3</th>
-  </tr>
-</thead>
-<tbody>
-  <tr>
-    <td>Salary</td>
-    <td>$120,000</td>
-    <td>$80,000</td>
-    <td>none</td>
-  </tr>
-  <tr>
-    <td>Interest rate</td>
-    <td>12.5%</td>
-    <td>12.5%</td>
-    <td>17.5%</td>
-  </tr>
-  <tr>
-    <td>Credit rating</td>
-    <td>E</td>
-    <td>A</td>
-    <td>D</td>
-  </tr>
-  <tr>
-    <td>Loan term</td>
-    <td>12 months</td>
-    <td>60 months</td>
-    <td>12 months</td>
-  </tr>
-  <tr>
-    <td>Occupation</td>
-    <td>Accountant</td>
-    <td>Car restorer</td>
-    <td>Author</td>
-  </tr>
-</tbody>
-</table>
-</div>
-</div>
-<div class="sd-tab-item docutils">
-<p class="sd-tab-label rubric">Contrastive Explanation</p>
-<div class="sd-tab-content docutils">
-<p>Your loan application has been rejected in this instance. The following list four reasons why:</p>
-<ol class="simple">
-<li><p>If your income had been $180,000 or above, you would have received the loan; <em>OR</em></p></li>
-<li><p>If you increased your loan term to 48 months, you would have received the loan; <em>OR</em></p></li>
-<li><p>If you applied for a small business loan, which has an interest rate of 9.5%, AND your income had been above $150,000, you would have received the loan; <em>OR</em></p></li>
-<li><p>If your occupation had been Chief Executive Officer, you would have received the loan.</p></li>
-</ol>
-</div>
-</div>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>
+```
+
+```{admonition} Example-based (Prototypes)
+:class: attention, dropdown
+
+Your loan application has been rejected in this instance. The following lists three examples of customers who have also had their loan rejected:
+
+&lt;table&gt;
+&lt;thead&gt;
+  &lt;tr&gt;
+    &lt;th&gt;Attribute&lt;/th&gt;
+    &lt;th&gt;Example customer 1&lt;/th&gt;
+    &lt;th&gt;Example customer 2&lt;/th&gt;
+    &lt;th&gt;Example customer 3&lt;/th&gt;
+  &lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Salary&lt;/td&gt;
+    &lt;td&gt;$120,000&lt;/td&gt;
+    &lt;td&gt;$80,000&lt;/td&gt;
+    &lt;td&gt;none&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Interest rate&lt;/td&gt;
+    &lt;td&gt;12.5%&lt;/td&gt;
+    &lt;td&gt;12.5%&lt;/td&gt;
+    &lt;td&gt;17.5%&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Credit rating&lt;/td&gt;
+    &lt;td&gt;E&lt;/td&gt;
+    &lt;td&gt;A&lt;/td&gt;
+    &lt;td&gt;D&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Loan term&lt;/td&gt;
+    &lt;td&gt;12 months&lt;/td&gt;
+    &lt;td&gt;60 months&lt;/td&gt;
+    &lt;td&gt;12 months&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Occupation&lt;/td&gt;
+    &lt;td&gt;Accountant&lt;/td&gt;
+    &lt;td&gt;Car restorer&lt;/td&gt;
+    &lt;td&gt;Author&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+```
+
+```{admonition} Contrastive Explanation
+:class: attention, dropdown
+
+Your loan application has been rejected in this instance. The following list four reasons why:
+
+1. If your income had been $180,000 or above, you would have received the loan; *OR*
+2. If you increased your loan term to 48 months, you would have received the loan; *OR*
+3. If you applied for a small business loan, which has an interest rate of 9.5%, AND your income had been above $150,000, you would have received the loan; *OR*
+4. If your occupation had been Chief Executive Officer, you would have received the loan.
+```
 </pre></div>
 </div>
 </div>
