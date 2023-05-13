@@ -1,4 +1,5 @@
 # Tutorial 7: Transparency
+
 In week 6, Marc discussed *transparency*, an important consideration when making decisions and implementing processes involving AI. This is different to the concept of *explainability* (covered later in the subject) which is instead concerned with the interpretability of our algorithms.
 
 In this tutorial we will:
