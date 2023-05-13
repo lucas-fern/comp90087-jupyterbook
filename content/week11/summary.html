@@ -503,9 +503,33 @@ title="Print to PDF"
     <nav id="bd-toc-nav" aria-label="Page">
         <ul class="visible nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#data-governance">
-   Data Governance
+  <a class="reference internal nav-link" href="#explainable-ai">
+   Explainable AI
   </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#stakeholders">
+     Stakeholders
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#properties-of-xai-approaches">
+     Properties of XAI Approaches
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#intrinsic-vs-post-hoc">
+       Intrinsic vs. Post-hoc
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#local-vs-global">
+       Local vs. Global
+      </a>
+     </li>
+    </ul>
+   </li>
+  </ul>
  </li>
 </ul>
 
@@ -527,9 +551,33 @@ title="Print to PDF"
                         <nav aria-label="Page">
                             <ul class="visible nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#data-governance">
-   Data Governance
+  <a class="reference internal nav-link" href="#explainable-ai">
+   Explainable AI
   </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#stakeholders">
+     Stakeholders
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#properties-of-xai-approaches">
+     Properties of XAI Approaches
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#intrinsic-vs-post-hoc">
+       Intrinsic vs. Post-hoc
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#local-vs-global">
+       Local vs. Global
+      </a>
+     </li>
+    </ul>
+   </li>
+  </ul>
  </li>
 </ul>
 
@@ -543,19 +591,50 @@ title="Print to PDF"
                 
   <section class="tex2jax_ignore mathjax_ignore" id="summary">
 <h1>Summary<a class="headerlink" href="#summary" title="Permalink to this headline">#</a></h1>
-<section id="data-governance">
-<h2>Data Governance<a class="headerlink" href="#data-governance" title="Permalink to this headline">#</a></h2>
+<section id="explainable-ai">
+<h2>Explainable AI<a class="headerlink" href="#explainable-ai" title="Permalink to this headline">#</a></h2>
+<p>Why do we want explainability?</p>
+<ul class="simple">
+<li><p>To understand how a model works</p></li>
+<li><p>To understand the factors that are motivating the model’s decisions</p></li>
+<li><p>To determine the trustworthiness of the model</p></li>
+</ul>
+<section id="stakeholders">
+<h3>Stakeholders<a class="headerlink" href="#stakeholders" title="Permalink to this headline">#</a></h3>
+<p>Various stakeholders benefit from explainable models, including:</p>
+<ul class="simple">
+<li><p><strong>Consumers</strong>, who gain a better understanding of how they are impacted by the model.</p></li>
+<li><p><strong>Data Scientists/Model Developers</strong>, who are able to more effectively debug and improve models based on their increased understanding.</p></li>
+<li><p><strong>Business Owners</strong>, who are able to understand the models they are utilising, and evaluate their suitability for each application.</p></li>
+<li><p><strong>Risk Modellers</strong>, who are able to evaluate the robustness of models more effectively when they have a deeper understanding of the decision-making process.</p></li>
+<li><p><strong>Regulators</strong>, who can more easily evaluate the impact of models on consumers, and verify the reliability of models.</p></li>
+<li><p>etc.</p></li>
+</ul>
+</section>
+<section id="properties-of-xai-approaches">
+<h3>Properties of XAI Approaches<a class="headerlink" href="#properties-of-xai-approaches" title="Permalink to this headline">#</a></h3>
+<p>Explainability methods can be categorised according to when the explanation is generated relative to the model output (<span class="xref std std-ref">content:week11:summary:intrinsic-vs-post-hoc</span>).</p>
+<p>They can be further categorised based on whether they provide explanations at the level of individual instances, or look at the model and its parameters as a whole (<a class="reference internal" href="#local-vs-global"><span class="std std-ref">Local vs. Global</span></a>).</p>
+<p>Finally, some explanation techniques are specific to the inner workings of a given model (<strong>Model Specific Explanations</strong>) and others rely only on inputs and outputs, therefore making them applicable to any model with that interface (<strong>Model Agnostic Explanations</strong>).</p>
+<section id="intrinsic-vs-post-hoc">
+<span id="id1"></span><h4>Intrinsic vs. Post-hoc<a class="headerlink" href="#intrinsic-vs-post-hoc" title="Permalink to this headline">#</a></h4>
 <dl class="simple myst">
-<dt>Data Governance</dt><dd><p>An approach taken by organisations to manage their data assets. This involves the development and implementation of policies, principles, standards, and processes that ensure the consistent, accurate, and secure handling of data.</p>
+<dt>Intrinsic Interpretability</dt><dd><p>is achieved when a model is constructed in a way that is inherently understandable. This includes models such as decision trees and linear models, where the logic performed by the algorithm can easily be traced by a human.</p>
+</dd>
+<dt>Post-hoc Interpretability</dt><dd><p>requires the construction of a second model to provide explanations for a model that is inherently uninterpretable. This approach is often applied to deep learning models so that explanations can be achieved without sacrificing performance.</p>
 </dd>
 </dl>
-<p>Data Governance policies regulate various aspects of data handling, including:</p>
-<ul class="simple">
-<li><p>data quality,</p></li>
-<li><p>data privacy,</p></li>
-<li><p>regulatory compliance,</p></li>
-<li><p>roles and responsibilities of people involved in data management.</p></li>
-</ul>
+</section>
+<section id="local-vs-global">
+<span id="id2"></span><h4>Local vs. Global<a class="headerlink" href="#local-vs-global" title="Permalink to this headline">#</a></h4>
+<dl class="simple myst">
+<dt>Local Explanations</dt><dd><p>examine the result for individual instances, and help to understand the causal relationship between the input to the model and the corresponding prediction.</p>
+</dd>
+<dt>Global Explanations</dt><dd><p>inspect the structures and parameters present in the model, facilitating an understanding of its inner mechanisms.</p>
+</dd>
+</dl>
+</section>
+</section>
 </section>
 </section>
 
