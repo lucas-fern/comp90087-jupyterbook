@@ -1,11 +1,11 @@
-# Tutorial 10 Activities
+# Tutorial 11 Activities
 
 ## Activities
 
 ```````{tab-set}
 ``````{tab-item} Task 1: Ofqual
 
-Consider the following news article about *Ofqual*: an algorithmic approach that predict final grades for secondary school students in the England in 2020, who were unable to sit exams due to the COVID-19 pandemic.
+Consider the following news article about *Ofqual*: an algorithmic approach that predict final grades for secondary school students in England in 2020, who were unable to sit exams due to the COVID-19 pandemic.
 
 ```{epigraph}
 [A-levels and GCSEs: How did the exam algorithm work?](https://www.bbc.com/news/explainers-53807730)
