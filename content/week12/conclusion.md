@@ -1,7 +1,5 @@
 # Wrap-up
 
-## Activities
-
 ```````{tab-set}
 ``````{tab-item} Feedback
 
@@ -20,7 +18,7 @@ Thanks for filling it out!
 
 ``````{tab-item} Question Time
 
-Congrats on making it to the end of the subject! 🥳🎉
+**Congrats on making it to the end of the subject!** 🥳🎉
 
 We've left some time in this tutorial for any questions or discussions about:
 - Content throughout the subject,
@@ -28,10 +26,6 @@ We've left some time in this tutorial for any questions or discussions about:
 - Feedback,
 - Future study/research/ways to get involved with AI ethics.
 
-Thanks for attending each week, and I hope you enjoyed our discussions!
+**Thanks for attending each week, and I hope you enjoyed our discussions!**
 ``````
 ```````
-
-```{note}
-As per usual, please remember to collate your answers and discussion points to these questions and post them in the [discussion board](https://canvas.lms.unimelb.edu.au/courses/151263/discussion_topics/870513)! :)
-```
