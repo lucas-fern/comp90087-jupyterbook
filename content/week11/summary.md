@@ -19,7 +19,7 @@ Various stakeholders benefit from explainable models, including:
 
 ### Properties of XAI Approaches
 
-Explainability methods can be categorised according to when the explanation is generated relative to the model output ({ref}`content:week11:summary:intrinsic-vs-post-hoc`). 
+Explainability methods can be categorised according to when the explanation is generated relative to the model output ({ref}`intrinsic-vs-post-hoc`). 
 
 They can be further categorised based on whether they provide explanations at the level of individual instances, or look at the model and its parameters as a whole ({ref}`local-vs-global`).
 
