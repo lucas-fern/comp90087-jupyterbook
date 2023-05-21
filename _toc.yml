@@ -52,3 +52,8 @@ parts:
     sections:
     - file: content/week11/summary
     - file: content/week11/activities
+  - file: content/week12/introduction
+    sections:
+    - file: content/week12/summary
+    - file: content/week12/activities
+    - file: content/week12/conclusion

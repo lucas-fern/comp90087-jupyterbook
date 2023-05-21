@@ -1,6 +1,6 @@
 # Tutorial 11: Explainable AI (XAI)
 
-This week we discuss *explainability*, an field of AI ethics which looks at increasing human understanding of the decisions made by AI systems. Explanations answer the question of *why* our models produce the results they do.
+This week we discuss *explainability*, a field of AI ethics which looks at increasing human understanding of the decisions made by AI systems. Explanations answer the question of *why* our models produce the results they do.
 
 The aims of the tutorial on Explainability are as follows:
 
